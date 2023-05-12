@@ -4,11 +4,11 @@ import {  ReactNode } from "react";
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
-    <>
+    <div className="bg-white">
       <Header></Header>
       <main>{children}</main>
       <Footer></Footer>
-    </>
+    </div>
   );
 };
 
