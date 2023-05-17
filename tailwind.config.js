@@ -10,10 +10,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors : {
-        'primary-color' : "#6266ED",
-        'purple-1' : "#8685CE"
-      }
+      colors: {
+        'primary-color': "#6266ED",
+        'purple-1': "#8685CE"
+      },
+      themes: false,
     },
   },
   plugins: [],

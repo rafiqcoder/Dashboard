@@ -1,0 +1,39 @@
+.custom_form_element_css_1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+}
+
+.custom_form_element_css_1:last-child {
+  margin-bottom: 0px;
+}
+
+.custom_form_element_css_1 > input,
+.custom_form_element_css_1 > textarea {
+  background-color: transparent;
+  outline: none;
+  width: calc(100% - 28px);
+}
+
+.custom_form_item_caption {
+  position: absolute !important;
+  top: 12px;
+  left: 42px;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.3s all ease-out;
+}
+.custom_form_element_css_1 .input_field:focus ~ .custom_form_item_caption,
+.custom_form_element_css_1 .input_field:valid ~ .custom_form_item_caption {
+  transform: translateY(-28px) translateX(-28px);
+  background-color: #bbddf4;
+  color: #000000;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+.form_icon_custom{
+  padding-top: 5px !important;
+}

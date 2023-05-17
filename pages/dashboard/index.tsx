@@ -1,11 +1,16 @@
 import DashboardLayout from "@/Layout/DashboardLayout";
+import DashCommon from "@/components/Dashboard/DashCommon";
 
-const index = () => {
+
+const dashboard = () => {
+  
   return (
     <DashboardLayout>
-      <div>This si Dashboard Layout</div>
+      <div className="">
+        <DashCommon></DashCommon>
+     </div>
     </DashboardLayout>
   );
 };
 
-export default index;
+export default dashboard;
